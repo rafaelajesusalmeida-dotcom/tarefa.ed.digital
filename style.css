@@ -68,14 +68,14 @@ figcaption {
     color: black;
     margin-top: 8px;
 }
-card {
+.card {
     background-color:  #f3d9fa;
     padding: 15px;
     margin: 15px 0;
     border-left: 6px solid #56f3f8;
     border-radius: 10px;
 }
-card h3 {
+.card h3 {
     margin-top: 0;
 }
 footer {
@@ -84,4 +84,23 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+}
+
+button {
+    background-color: #6b2d5c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b2d5c;
+    
+}
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
 }

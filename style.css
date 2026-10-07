@@ -11,15 +11,15 @@
     --cor-rodape:#10103d;
 }
 body {
-    background-color: lightblue;
-    color: black;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: cadetblue;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    color: black;
+    color: var(--cor-principal);
 }
 
 p {
@@ -42,16 +42,16 @@ nav {
 }
 
 nav a {
-    color: white;
+    color:  var(--cor-clara);
     text-decoration: none;
-    background-color: #40d4ee;
+    background-color: var(--cor-secundaria);
     padding: 10px 15 px;
     border-radius: 8px;
     margin: 5px;
     display: inline-block;
 }
 nav a:hover{
-    background-color: #c77dff;
+    background-color: var(--cor-hover);
 }
 
 main {
@@ -60,7 +60,7 @@ main {
 }
 
 section {
-    background-color: aliceblue;
+    background-color:  var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -77,30 +77,30 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: black;
+    color:  var(--cor-legenda);
     margin-top: 8px;
 }
 .card {
-    background-color:  #f3d9fa;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #56f3f8;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
 }
 .card h3 {
     margin-top: 0;
 }
 footer {
-    background-color:  #222222;
-    color: white;
+    background-color:  var(--cor-rodape);
+    color:  var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
 button {
-    background-color: #6b2d5c;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -108,7 +108,7 @@ button {
 }
 
 button:hover {
-    background-color: #6b2d5c;
+    background-color: var(--cor-hover);
     
 }
 .curtir {

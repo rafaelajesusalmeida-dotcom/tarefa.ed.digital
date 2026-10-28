@@ -10,6 +10,14 @@
     --cor-clara: #ffffff;
     --cor-rodape:#10103d;
 }
+.tema-escuro{
+    --cor-fundo:black;
+    --cor-texto:black;
+    --cor-principal:black;
+    --cor-superficie:black;
+    --cor-card:black;
+}
+
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);

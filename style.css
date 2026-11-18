@@ -1,19 +1,19 @@
 :root{
     --cor-fundo:#a3d6df;
     --cor-texto:#222222;
-    --cor-principal:#18193f;
-    --cor-secundaria:#161636;
+    --cor-principal:#4a4c7e;
+    --cor-secundaria:#33335f;
     --cor-hover: #222222;
     --cor-superficie:#ffffff;
     --cor-card:#65d2e6;
     --cor-legenda:#555555;
     --cor-clara: #ffffff;
-    --cor-rodape:#10103d;
+    --cor-rodape:#2e2e9b;
 }
 .tema-escuro{
     --cor-fundo:black;
     --cor-texto:black;
-    --cor-principal:black;
+    --cor-principal:white;
     --cor-superficie:black;
     --cor-card:black;
 }
